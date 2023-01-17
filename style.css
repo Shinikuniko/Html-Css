@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Rowdies&display=swap')
+
+
+root{
+    --cor-fundo:#dddada93 ;
+    --cor-azul-logo: #2c72dbd3;
+}
 
 * {
     margin: 0;
@@ -10,7 +16,7 @@
 
 body{
     font-size: 100%; 
-    background-color: #020eb4d8;
+    background-color: #dddada93;
 }
 
 .cabecalho{
@@ -18,12 +24,26 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 5vh;
+    background-color:#2362c067;
 }
 
 .logo{
-    height: 100px;
-    border-radius: 20px;
+    display: flex;
+    align-items: flex-start;
+    font-family: 'Rowdies', cursive;
+    font-weight: 900;
+    font-size: 32px;   
+    padding: 0;
+    text-shadow: 
+    1px 1px 0 black,
+    1px 1px 0 black;
+}
+
+.logo-perfil{
+    color :  #4686e6d2;
+}
+.logo-tec{
+    color :  #2c72db;
 }
 
 .cabecalho-menu{
@@ -32,9 +52,9 @@ body{
 }
 
 .cabecalho-menu-item{
-    font-family: 'Sarala', sans-serif;
-    color: antiquewhite;
-    font-weight: 400;
+    font-family: 'Righteous', cursive;
+    color: #2c72db;
+    font-weight: 300;
     font-size: 20px;
 }
 
